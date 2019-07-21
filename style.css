@@ -1,8 +1,30 @@
 .grids {
-    padding: 8px;
-    display: inline-block;
+  background-color: gray;
+  
+    
 }
 
-#container {
-    display: inline-block;
+#container{
+    display: grid;
+    width: 800px;
+    height: 650px;
+    margin: 30px auto;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    color: white;
+    border-radius: 15px;
+    background-color: rgb(36, 34, 39)
+}
+
+#buttons {
+    align-content: center;
+    
+}
+
+body{ 
+    background-image: url(http://3.bp.blogspot.com/-_OwwMLsRiqQ/UMioDf02WFI/AAAAAAAAO7Q/B2vdOjL2ytQ/s1600/Neon+Art+Wallpapers+05.jpg);
+    background-size: auto;
 }
